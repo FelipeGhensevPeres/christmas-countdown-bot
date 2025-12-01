@@ -11,6 +11,31 @@ Caso você queira executar o código, certifique-se de atualizar todas as inform
 
 - Sem essas informações, o script não funcionará.
 
+
+# Como transformar seu código em um arquivo .exe
+1. Instale o PyInstaller
+   
+   - pode ser pelo terminal, usando "pip install pyinstaller"
+
+2. Gere o executável
+   
+  - Dentro da pasta do arquivo .py, execute:  "pyinstaller --onefile nome_do_arquivo.py"
+
+  - O --onefile cria apenas um único .exe, com tudo empacotado.
+
+  - Caso queira esconder o terminal ao executar, use: "pyinstaller --onefile --noconsole nome_do_arquivo.py"
+
+3. Encontre o arquivo executável
+
+   - Depois de gerar o .exe o PyInstaller criará duas pastas:
+   - build/
+   - dist/
+   - O arquivo exe estará disponivel na pasta dist
+
+4. Agora configure no seu Agendador de Tarefas
+   - Basta adicioná-lo ao Agendador de Tarefas do Windows e definir o horário da execução.
+
+
 # 🎄 Notificador de Contagem Regressiva para o Natal
 Este projeto é uma automação simples e divertida desenvolvida em Python que envia diariamente um SMS com a contagem regressiva em dias para o Natal.
 
@@ -54,3 +79,4 @@ Arquivo-programado.py  → Script principal
 Agendador de Tarefas    →  Dispara o script diariamente
 
 Twilio API              → Serviço que envia o SMS 
+
