@@ -1,4 +1,4 @@
-# christmas-countdown-bot
+# contagem-regressiva-natal
 
 # ‼️ Aviso Importante
 Caso você queira executar o código, certifique-se de atualizar todas as informações sensíveis antes de rodar, como:
