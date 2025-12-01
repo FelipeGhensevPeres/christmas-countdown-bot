@@ -1,6 +1,17 @@
 # christmas-countdown-bot
 
-# 🎄 Introdução
+# Aviso Importante
+Caso você queira executar o código, certifique-se de atualizar todas as informações sensíveis antes de rodar, como:
+
+- Seu número de telefone (para onde o SMS será enviado, campo to=)
+
+- Número fornecido pelo Twilio (campo from_)
+
+- SID da conta e Auth Token do Twilio
+
+- Sem essas informações, o script não funcionará.
+
+# 🎄 Notificador de Contagem Regressiva para o Natal
 Este projeto é uma automação simples e divertida desenvolvida em Python que envia diariamente um SMS com a contagem regressiva em dias para o Natal.
 
 Converti o script para .exe e configurado no Agendador de Tarefas do Windows, sendo executado automaticamente todos os dias às 14:50. Não é necessário abrir nada, a automação faz tudo sozinha.
