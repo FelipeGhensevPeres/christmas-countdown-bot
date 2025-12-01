@@ -1,6 +1,6 @@
 # christmas-countdown-bot
 
-# Aviso Importante
+# ‼️ Aviso Importante
 Caso você queira executar o código, certifique-se de atualizar todas as informações sensíveis antes de rodar, como:
 
 - Seu número de telefone (para onde o SMS será enviado, campo to=)
@@ -12,7 +12,7 @@ Caso você queira executar o código, certifique-se de atualizar todas as inform
 - Sem essas informações, o script não funcionará.
 
 
-# Como transformar seu código em um arquivo .exe
+# 💾 Como transformar seu código em um arquivo .exe
 1. Instale o PyInstaller
    
    - pode ser pelo terminal, usando "pip install pyinstaller"
@@ -41,7 +41,7 @@ Este projeto é uma automação simples e divertida desenvolvida em Python que e
 
 Converti o script para .exe e configurado no Agendador de Tarefas do Windows, sendo executado automaticamente todos os dias às 14:50. Não é necessário abrir nada, a automação faz tudo sozinha.
 
-# O que o programa faz?
+# 🧑‍💻 O que o programa faz?
 
 - Calcula quantos dias faltam para o Natal (25 de dezembro).
   
@@ -57,7 +57,7 @@ Converti o script para .exe e configurado no Agendador de Tarefas do Windows, se
 
 - Depois do Natal → Caso você ainda deixe o programa funcionando ele informa quantos dias já passaram.
 
-# Como funciona tecnicamente
+# 👨‍🔧 Como funciona tecnicamente
 
 1. Pega a data atual usando datetime.now()
 
@@ -71,7 +71,7 @@ Converti o script para .exe e configurado no Agendador de Tarefas do Windows, se
 
 6. Foi programado no Agendador de Tarefas para executar sozinho todo dia às 14:50.
 
-# Arquitetura do meu projeto
+#  🏛️ Arquitetura do meu projeto
 Arquivo-programado.py  → Script principal
 
 .exe gerado             → Versão executável do script principal
