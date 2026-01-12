@@ -39,8 +39,9 @@ def chegando_natal():
         mensagem = cliente.messages.create(
             to="+SEU NUMERO DE TELEFONE",
             from_="+NUMERO FORNECIDO PELO TWILLIO",
-            body= f'O natal ja passou faz {passou_natal.days} dias. Agora só no proximo natal kkkkk')
-           
+            body= f'O natal ja passou faz {passou_natal.days} dias.')
+
+#COMENTARIO PARA TESTE DA SEGUNDA BRANCH DO PROJETO           
     
 chegando_natal()
 
