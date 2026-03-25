@@ -41,7 +41,8 @@ def chegando_natal():
             from_="+NUMERO FORNECIDO PELO TWILLIO",
             body= f'O natal ja passou faz {passou_natal.days} dias.')
 
-#COMENTARIO PARA TESTE DA SEGUNDA BRANCH DO PROJETO           
+#COMENTARIO PARA TESTE DA SEGUNDA BRANCH DO PROJETO 
+#OUTRO COMENTARIO, TESTANDO BRANCH           
     
 chegando_natal()
 
